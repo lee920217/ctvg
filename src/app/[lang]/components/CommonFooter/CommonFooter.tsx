@@ -9,7 +9,7 @@ const CommonFooter: React.FC<CommonProps> = async(locale) => {
     const data = lang.footer
     return (
         <div className="w-full bg-navy lg:h-[438px] flex">
-            <div className="w-full max-w-[1180px] flex flex-col lg:px-20 lg:py-[72px] sm:px-4 sm:py-16">
+            <div className="lg:w-[1120px] lg:mx-auto flex flex-col lg:py-[72px] sm:px-4 sm:py-16">
                 <p className="text-white text-header3-mobile font-semibold font-bd-en">{data.logo}</p>
                 <p className="text-white07 font-bd-en text-left my-6 max-w-[552px]">{data.intro}</p>
                 <button className='lg:w-44 lg:h-14 bg-brand text-navy rounded-sm font-hd-en text-button sm:w-[343px] sm:h-[56px]'>{data.button}</button>

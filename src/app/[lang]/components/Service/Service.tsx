@@ -11,7 +11,7 @@ const Service: React.FC<CommonProps> = async(locale) => {
   return (
     <div className='w-full lg:bg-service-svg sm:bg-navy bg-cover bg-no-repeat lg:h-[1578px] flex justify-center items-center sm:bg-center sm:py-20'>
         <div className='w-full max-w-[1180px] h-full flex overflow-hidden'>
-            <div className='h-full flex flex-col gap-8 flex-wrap items-center justify-center sm:px-4'>
+            <div className='h-full flex flex-col gap-8 flex-wrap sm:items-center justify-center sm:px-4'>
                 <p className='text-white w-[256px] text-header2-desktop font-bd-en mt-11 mb-5 sm:text-header2-mobile sm:text-center'>{data.header}</p>
                 <Image className='sm:hidden' alt='service-image' src='./svg/service-intro.svg' width={363} height={616} />
                 <div className='lg:w-[363px] lg:h-[398px] flex flex-col bg-white rounded-2xl p-8 sm:h-[346px]'>

@@ -9,7 +9,7 @@ const HomeSlogan: React.FC<CommonProps> = async(locale) => {
   return (
     <div className="w-full bg-navy lg:h-[754px] flex justify-center items-center sm:text-center px-4 sm:py-20">
       <div className="w-full mx-auto max-w-[1120px] flex items-center justify-between sm:flex-col">
-        <div className='flex flex-col lg:max-w-[583px] items-center'>
+        <div className='flex flex-col lg:max-w-[583px] sm:items-center'>
             <p className="font-bd-en text-brand text-body-bold">{data.headerTips}</p>
             <p className="font-bd-en text-white text-header1-desktop mt-4 sm:text-header1-mobile">{data.headerTips}</p>
             <p className='font-bd-en text-white07 text-subheader my-12'>{data.headerIntro} </p>
