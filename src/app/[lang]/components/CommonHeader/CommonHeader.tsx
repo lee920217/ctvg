@@ -33,11 +33,11 @@ const CommonHeader: React.FC<CommonProps> = (locale) => {
       <div className="lg:max-w-[1120px] mx-auto flex justify-between items-center py-4 sm:px-4">
         <h1 className="text-white font-hd-en text-header3-mobile font-semibold">{data?.logo}</h1>
         <nav className='sm:hidden'>
-          <ul className="flex space-x-4">
-            <li className="text-brand font-bd-en text-body-bold cursor-pointer">
+          <ul className="flex space-x-10">
+            <li className="text-brand font-bd-en text-body-bold cursor-pointer px-2">
               {data?.button.Home}
             </li>
-            <li className="text-white07 font-bd-en text-body cursor-pointer">
+            <li className="text-white07 font-bd-en text-body cursor-pointer px-2">
               {data?.button.ContactUs}
             </li>
           </ul>
@@ -50,11 +50,11 @@ const CommonHeader: React.FC<CommonProps> = (locale) => {
       </div>
       {openMenu && (
         <div className="w-full h-full bg-navy pt-4">
-          <ul className="flex flex-col space-x-4 justify-center items-center">
+          <ul className="flex flex-col justify-center items-center">
             <li className="text-brand py-3 font-bd-en text-body-bold cursor-pointer">
               {data?.button.Home}
             </li>
-            <li className="text-white07 font-bd-en text-body cursor-pointer">
+            <li className="text-white07 py-3 font-bd-en text-body cursor-pointer">
               {data?.button.ContactUs}
             </li>
           </ul>
