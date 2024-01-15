@@ -2,6 +2,7 @@ import { CommonProps } from '@/type';
 import React from 'react';
 import { getDictionary } from '../../../../../getDictionaries';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const HomeSlogan: React.FC<CommonProps> = async(locale) => {
   const lang = await getDictionary(locale.locale);
@@ -13,7 +14,13 @@ const HomeSlogan: React.FC<CommonProps> = async(locale) => {
             <p className="font-bd-en text-brand text-body-bold">{data.headerTips}</p>
             <p className="font-hd-en text-white text-header1-desktop mt-4 sm:text-header1-mobile">{data.headerText}</p>
             <p className='font-bd-en text-white07 text-subheader my-12'>{data.headerIntro} </p>
-            <button className='lg:w-44 lg:h-14 bg-brand text-navy rounded-sm font-hd-en text-button sm:w-[343px] sm:h-[56px]'>{data.ContactUs}</button>
+            <Link target={'_blank'} href={'mailto:contact@ctvg.com'}>
+              <button
+                  className='lg:w-44 lg:h-14 bg-brand text-navy rounded-sm font-hd-en text-button sm:w-[343px] sm:h-[56px] hover:bg-brand-hover'
+              >
+                {data.ContactUs}
+              </button>
+            </Link>
         </div>
         <div className='lg:w-[457px] lg:h-[434px] relative sm:w-[343px] sm:h-[318px] sm:mt-8'>
           <Image

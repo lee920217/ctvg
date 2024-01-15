@@ -5,6 +5,7 @@ import { getDictionary } from '../../../../../getDictionaries';
 import { useLanguage } from '../../context/LanguageContext';
 import { CommonProps, i18nHeader } from '@/type';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const CommonHeader: React.FC<CommonProps> = (locale) => {
   const lang = getDictionary(locale.locale);
@@ -34,12 +35,16 @@ const CommonHeader: React.FC<CommonProps> = (locale) => {
         <h1 className="text-white font-hd-en text-header3-mobile font-semibold">{data?.logo}</h1>
         <nav className='sm:hidden'>
           <ul className="flex space-x-10">
-            <li className="text-brand font-bd-en text-body-bold cursor-pointer px-2">
-              {data?.button.Home}
-            </li>
-            <li className="text-white07 font-bd-en text-body cursor-pointer px-2">
-              {data?.button.ContactUs}
-            </li>
+            <Link href={'/'}>
+              <li className="text-brand font-bd-en text-body-bold cursor-pointer px-2">
+                {data?.button.Home}
+              </li>
+            </Link>
+            <Link target={'_blank'} href={'mailto:contact@ctvg.com'}>
+              <li className="text-white07 font-bd-en text-body cursor-pointer px-2 hover:text-brand">
+                {data?.button.ContactUs}
+              </li>
+            </Link>
           </ul>
         </nav>
         <div className='lg:hidden cursor-pointer' onClick={() => setOpenMenu(!openMenu)}>
@@ -51,12 +56,16 @@ const CommonHeader: React.FC<CommonProps> = (locale) => {
       {openMenu && (
         <div className="w-full h-full bg-navy pt-4">
           <ul className="flex flex-col justify-center items-center">
-            <li className="text-brand py-3 font-bd-en text-body-bold cursor-pointer">
-              {data?.button.Home}
-            </li>
-            <li className="text-white07 py-3 font-bd-en text-body cursor-pointer">
-              {data?.button.ContactUs}
-            </li>
+            <Link href={'/'}>
+              <li className="text-brand py-3 font-bd-en text-body-bold cursor-pointer">
+                {data?.button.Home}
+              </li>
+            </Link>
+            <Link target={'_blank'} href={'mailto:contact@ctvg.com'}>
+              <li className="text-white07 py-3 font-bd-en text-body cursor-pointer hover:text-brand">
+                  {data?.button.ContactUs}
+              </li>
+            </Link>
           </ul>
         </div>
       )}

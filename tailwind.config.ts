@@ -18,6 +18,7 @@ const config: Config = {
       colors: {
         brand: '#88DAB5',
         'brand-darker': '#47A782',
+        'brand-hover': '#7FCBAA',
         bg: '#F8F9FD',
         navy: '#121C2D',
         'navy07': 'rgba(18, 28, 45, 0.7)',
