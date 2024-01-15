@@ -8,8 +8,8 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      sm: { max: '1280px', min: '1px'},
-      lg: { min: '1280px'}
+      sm: { max: '1200px', min: '1px'},
+      lg: { min: '1200px'}
     },
     extend: {
       backgroundImage: {
@@ -30,19 +30,19 @@ const config: Config = {
         'bd-en': ['Open Runde']
       },
       fontSize: {
-          'header1-desktop': ['64px', { lineHeight: '120%', fontWeight: '700' }],
+          'header1-desktop': ['56px', { lineHeight: '120%', fontWeight: '700' }],
           'header1-mobile': ['40px', { lineHeight: '120%', fontWeight: '700' }],
           'header2-desktop': ['48px', { lineHeight: '120%', fontWeight: '700' }],
           'header2-mobile': ['32px', { lineHeight: '120%', fontWeight: '700' }],
           'header3-desktop': ['32px', { lineHeight: '120%', fontWeight: '700' }],
           'header3-mobile': ['28px', { lineHeight: '120%', fontWeight: '700' }],
           subheader: ['20px', { lineHeight: '160%', fontWeight: '400' }],
-          'subheader-bold': ['20px', { lineHeight: '120%', fontWeight: '700' }],
+          'subheader-bold': ['20px', { lineHeight: '160%', fontWeight: '700' }],
           body: ['16px', { lineHeight: '160%', fontWeight: '400' }],
           'body-bold': ['16px', { lineHeight: '160%', fontWeight: '700' }],
           label: ['14px', { lineHeight: '160%', fontWeight: '400' }],
           'label-bold': ['14px', { lineHeight: '160%', fontWeight: '700' }],
-          button: ['16px', { lineHeight: '120%', fontWeight: '500' }],
+          button: ['16px', { lineHeight: '120%', fontWeight: '600' }],
       },
     },
   },

@@ -1,16 +1,16 @@
 {
     "header": {
-        "logo": "CVTG",
+        "logo": "CTVG",
         "button": {
             "Home": "Home",
-            "ContactUs": "Contact Us"
+            "ContactUs": "Contact us"
         }
     },
     "homeSlogan": {
         "headerTips": "Comprehensive IT Software Services",
         "headerText": "Tech Forward, Always Progressing",
         "headerIntro": "We are dedicated to covering the entire software development lifecycle from consultation, design, development, testing, to operations and community support.",
-        "ContactUs": "Contact Us"
+        "ContactUs": "Contact us"
     },
     "misson": {
         "header": "Our Mission & Goals",
@@ -23,7 +23,7 @@
         "CompetitiveText": " Fortify your market position & drive competitive advantage"
     },
     "service": {
-        "header": "Our Service",
+        "header": "Our Services",
         "UI": "UI Design",
         "UIIntro": "We house a specialized UI design team committed to delivering exceptional user interface designs for our clients. We elevate product attractiveness and usability through innovative design and user-friendly interactions.",
         "Ecosystem": "Ecosystem Construction",
@@ -46,8 +46,8 @@
         "intro2": "We boast an experienced and technically adept professional team with profound knowledge and extensive project experience across various technical domains"
     },
     "footer": {
-        "logo": "CVTG",
+        "logo": "CTVG",
         "intro": "For inquiries or to explore our services, contact us. We're ready to drive your business success and growth.",
-        "button": "Contact Us"
+        "button": "Contact us"
     }
 }
