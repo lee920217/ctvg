@@ -56,11 +56,13 @@ const CommonHeader: React.FC<CommonProps> = (locale) => {
       {openMenu && (
         <div className="w-full h-full bg-navy pt-4">
           <ul className="flex flex-col justify-center items-center">
-            <li className="text-brand py-3 font-bd-en text-body-bold cursor-pointer">
-              {data?.button.Home}
-            </li>
+            <Link href={'/'}>
+              <li className="text-brand py-3 font-bd-en text-body-bold cursor-pointer">
+                {data?.button.Home}
+              </li>
+            </Link>
             <Link target={'_blank'} href={'mailto:contact@ctvg.com'}>
-              <li className="text-white07 py-3 font-bd-en text-body cursor-pointer">
+              <li className="text-white07 py-3 font-bd-en text-body cursor-pointer hover:text-brand">
                   {data?.button.ContactUs}
               </li>
             </Link>
