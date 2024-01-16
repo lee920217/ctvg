@@ -10,10 +10,10 @@ const HomeSlogan: React.FC<CommonProps> = async(locale) => {
   return (
     <div className="w-full bg-navy lg:py-40 flex justify-center items-center sm:text-center px-4 sm:py-20">
       <div className="w-full mx-auto max-w-[1120px] flex items-center justify-between sm:flex-col">
-        <div className='flex flex-col lg:max-w-[615px] sm:items-center'>
+        <div className='flex flex-col lg:max-w-[690px] sm:items-center'>
             <p className="font-bd-en text-brand text-body-bold">{data.headerTips}</p>
             <p className="font-hd-en text-white text-header1-desktop mt-4 sm:text-header1-mobile">{data.headerText}</p>
-            <p className='font-bd-en text-white07 text-subheader my-12'>{data.headerIntro} </p>
+            <p className='font-bd-en text-white07 text-subheader my-12 lg:max-w-[615px]'>{data.headerIntro} </p>
             <Link className="lg:w-44 lg:h-14 sm:w-[343px] sm:h-[56px]" target={'_blank'} href={'mailto:contact@ctvg.com'}>
               <button
                   className='w-full h-full bg-brand text-navy rounded-sm font-hd-en text-button hover:bg-brand-hover'
@@ -22,7 +22,7 @@ const HomeSlogan: React.FC<CommonProps> = async(locale) => {
               </button>
             </Link>
         </div>
-        <div className='lg:w-[457px] lg:h-[434px] relative sm:w-[343px] sm:h-[318px] sm:mt-8'>
+        <div className='lg:w-[382px] lg:h-[400px] relative sm:w-[343px] sm:h-[360px] sm:mt-8'>
           <Image
             alt='We provide comprehensive IT software services, including consultation, design, development, testing, operations and community support.'
             layout='fill'
