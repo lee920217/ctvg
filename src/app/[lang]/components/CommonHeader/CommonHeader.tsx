@@ -33,7 +33,8 @@ const CommonHeader: React.FC<CommonProps> = (locale) => {
     <header className={`w-full ${openMenu ? 'h-screen' : 'h-auto'} bg-navy`}>
       <div className="lg:max-w-[1120px] mx-auto flex justify-between items-center py-4 sm:px-4">
         <h1 className="text-white font-hd-en text-header3-mobile font-semibold">{data?.logo}</h1>
-        <nav className='sm:hidden'>
+      </div>
+        {/* <nav className='sm:hidden'>
           <ul className="flex space-x-10">
             <Link href={'/'}>
               <li className="text-brand font-bd-en text-body-bold cursor-pointer px-2">
@@ -68,7 +69,7 @@ const CommonHeader: React.FC<CommonProps> = (locale) => {
             </Link>
           </ul>
         </div>
-      )}
+      )} */}
     </header>
   );
 };

@@ -8,46 +8,46 @@
     },
     "homeSlogan": {
         "headerTips": "Comprehensive IT Software Services",
-        "headerText": "Tech Forward, Always Progressing",
-        "headerIntro": "We are dedicated to covering the entire software development lifecycle from consultation, design, development, testing, to operations and community support.",
+        "headerText": "Engineering Tomorrow, Redefining Frontiers",
+        "headerIntro": "Our services cover the entire software development lifecycle, from consultation, design, development, testing, to operations and community support.",
         "ContactUs": "Contact us"
     },
     "misson": {
         "header": "Our Mission & Goals",
-        "headerIntro": "As pioneers in the industry, our mission is to create enduring value and impact for our customers, employees, and society at large.",
+        "headerIntro": "We aim to create enduring value for our customers, employees, and society at large.",
         "enhanceHeader": "Enhance Productivity",
-        "enhanceText": "Streamline your processes with cutting-edge technology & enable faster operations",
+        "enhanceText": "Streamline processes with cutting-edge technology and operational experience",
         "CostHeader": "Cost Efficient",
-        "CostText": "Cut down your expenses through resource management and process optimization",
+        "CostText": "Efficient allocation of resources via process management and domain expertise",
         "CompetitiveHeader": "Competitive",
-        "CompetitiveText": " Fortify your market position & drive competitive advantage"
+        "CompetitiveText": "Fortify market position and develop new competitive moats"
     },
     "service": {
         "header": "Our Services",
         "UI": "UI Design",
-        "UIIntro": "We house a specialized UI design team committed to delivering exceptional user interface designs for our clients. We elevate product attractiveness and usability through innovative design and user-friendly interactions.",
+        "UIIntro": "Our specialized design, UI and UX team delivers exceptional products for end users. We use the latest design trends, thinking and deeply understand market needs.",
         "Ecosystem": "Ecosystem Construction",
-        "EcosystemIntro": "We tailor our services to meet the unique business requirements of our clients, and we actively engage in the construction of their software ecosystems.",
+        "EcosystemIntro": "We tailor our services to meet clients’ unique business challenges, from discovery to long term ecosystem construction.",
         "Development": "Development Services",
-        "DevelopmentIntro": "Our expertise lies in technical and application, and toolkit development. Our core business revolves around tailoring and designing foundational technological solutions based on the specific needs and requirements of our clients.",
+        "DevelopmentIntro": "We are experts in infrastructure, application, and toolkit developments. We tailor and design foundational software solutions for our clients and users.",
         "Testing": "Testing Services",
-        "TestingIntro": "We offer comprehensive testing services, including functional testing, performance testing, security testing, and automated testing, among others, to ensure the stability, security, and reliability of the software.",
+        "TestingIntro": "Our testing services including unit, functional, performance, security, and automated integration tests. This ensure the stability, security, and reliability of all our products and services.",
         "Operations": "Operations & Maintenance Services",
-        "OperationsIntro": "We focus on system stability, availability, monitoring, troubleshooting, optimization, and security to ensure seamless business operations for our clients.",
-        "Community": "Community Services",
-        "CommunityIntro": "We actively engage in our clients’ community, collaborating closely to listen to user feedback. This strengthens our partnership with clients and contributes to a vibrant community of shared knowledge and innovation.",
-        "Technical": "Technical Consulting Services",
-        "TechnicalIntro": "As technology experts, we tailor our approach to the goals and needs of our clients. We formulate technical strategies, plan, and provide relevant technological advice and guidance to help clients overcome technical challenges."
+        "OperationsIntro": "We focus on stability, availability, monitoring, and security to ensure seamless business operations for our clients and their customers.",
+        "Community": "Community Development",
+        "CommunityIntro": "We actively engage in our clients’ community, collaborating closely with all stake holders. Our goal is to create a common knowledge base",
+        "Technical": "Technical Consulting",
+        "TechnicalIntro": "We can also help clients formulate the right questions, technical strategies, and the relevant resources guidance to realize their vision."
     },
     "aboutUs": {
-        "subHeader": "Technical Highlights & Professional Team",
+        "subHeader": "Experiences and Professional",
         "header": "About us",
-        "intro1": "We possess expertise in full-stack programming languages, development frameworks, database technologies, cloud computing platforms, security measures, and more.",
-        "intro2": "We boast an experienced and technically adept professional team with profound knowledge and extensive project experience across various technical domains"
+        "intro1": "Our team has multi-decade experiences developing software and products at scale for fortune 500 companies that are used by millions.",
+        "intro2": "We are experts across the stack, working with multi programming languages, development frameworks, system environments, database technologies, cloud computing platforms, and threat models."
     },
     "footer": {
         "logo": "CTVG",
-        "intro": "For inquiries or to explore our services, contact us. We're ready to drive your business success and growth.",
+        "intro": "Feel free to reach out with any enquiries.",
         "button": "Contact us"
     }
 }
