@@ -20,7 +20,7 @@
         "CostHeader": "Cost Efficient",
         "CostText": "Efficient allocation of resources via process management and domain expertise",
         "CompetitiveHeader": "Competitive",
-        "CompetitiveText": "Fortify market position and develop new competitive moats"
+        "CompetitiveText": "Fortify market positions and develop new competitive moats"
     },
     "service": {
         "header": "Our Services",
@@ -35,7 +35,7 @@
         "Operations": "Operations & Maintenance Services",
         "OperationsIntro": "We focus on stability, availability, monitoring, and security to ensure seamless business operations for our clients and their customers.",
         "Community": "Community Development",
-        "CommunityIntro": "We actively engage in our clients’ community, collaborating closely with all stake holders. Our goal is to create a common knowledge base",
+        "CommunityIntro": "We actively engage in our clients’ community, collaborating closely with all stake holders. Our goal is to create a common knowledge base.",
         "Technical": "Technical Consulting",
         "TechnicalIntro": "We can also help clients formulate the right questions, technical strategies, and the relevant resources guidance to realize their vision."
     },
